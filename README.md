@@ -13,14 +13,13 @@ Accede a la aplicación en funcionamiento desde el siguiente enlace:
 ## 📸 2. Capturas de Pantalla
 
 ### Inicio de sesión y registro de usuarios
-![Inicio de sesión](screenshots/01-login.png)
+![Inicio de sesión](screenshots/01-login.png.png)
 
 ### Panel principal y listado privado de contactos
-![Panel de contactos](screenshots/02-panel-contactos.png)
+![Panel de contactos](screenshots/02-panel-contactos.png.png)
 
 ### Registro y edición de contactos
-![Gestión de contactos](screenshots/03-nuevo-contacto.png)
-
+![Gestión de contactos](screenshots/03-nuevo-contacto.png.png)
 ---
 
 ## 🛠️ 3. Tecnologías Utilizadas
