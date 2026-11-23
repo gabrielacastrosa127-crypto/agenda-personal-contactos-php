@@ -1,26 +1,39 @@
-# Agenda Personal de Contactos (PHP & MySQL)
+# 📒 Agenda Personal de Contactos (PHP & MySQL)
 
-## Descripción del proyecto
-Aplicación web desarrollada en PHP y MySQL que implementa registro de usuarios, autenticación mediante sesiones y gestión privada de una agenda personal de contactos (CRUD). El sistema aplica controles de seguridad en el servidor para garantizar el aislamiento de datos entre usuarios y prevenir accesos no autorizados.
+Aplicación web desarrollada en PHP y MySQL que implementa registro de usuarios, autenticación mediante sesiones y gestión privada de una agenda personal de contactos (CRUD), desplegada y operativa completamente en línea.
 
-## Tecnologías utilizadas
-- **Backend:** PHP 8.x (PDO para acceso seguro a datos)
-- **Base de datos:** MySQL / MariaDB
-- **Frontend:** HTML5 y CSS3 responsivo
+---
 
-## Requisitos para su ejecución
-- Servidor web local con soporte para PHP 8.0 o superior (XAMPP, Laragon, WAMP o servidor embebido de PHP).
-- Gestor de base de datos MySQL 5.7+ o MariaDB 10.4+.
-- Extensión `pdo_mysql` habilitada en `php.ini`.
+## 🌐 1. URL Pública
+Accede a la aplicación en funcionamiento desde el siguiente enlace:
+👉 **[http://contactos-angie2026.rf.gd/index.php](http://contactos-angie2026.rf.gd/index.php)**
 
-## Pasos para instalar la aplicación
+---
+
+## 📸 2. Capturas de Pantalla
+
+### Inicio de sesión y registro de usuarios
+![Inicio de sesión](screenshots/01-login.png)
+
+### Panel principal y listado privado de contactos
+![Panel de contactos](screenshots/02-panel-contactos.png)
+
+### Registro y edición de contactos
+![Gestión de contactos](screenshots/03-nuevo-contacto.png)
+
+---
+
+## 🛠️ 3. Tecnologías Utilizadas
+* **Backend:** PHP 8.x (PDO para acceso seguro a datos y control de sesiones).
+* **Base de datos:** MySQL / MariaDB.
+* **Frontend:** HTML5 y CSS3 responsivo (`assets/style.css`).
+* **Servidor y Despliegue:** Apache (XAMPP/Laragon en entorno local y hosting gratuito en producción).
+* **Control de Versiones:** Git y GitHub.
+
+---
+
+## 💻 4. Instrucciones para Instalar el Proyecto Localmente
+
 1. **Clonar o descargar el repositorio:**
-   Ubica la carpeta `agenda_contactos` dentro del directorio raíz de tu servidor web (por ejemplo, `C:\xampp\htdocs\agenda_contactos` o `C:\laragon\www\agenda_contactos`).
-2. **Crear la base de datos:**
-   - Abre phpMyAdmin o tu cliente MySQL.
-   - Importa o ejecuta el script ubicado en `sql/database.sql` para crear la base de datos `agenda_contactos` y las tablas `usuarios` y `contactos`.
-3. **Configurar la conexión:**
-   - Abre `config/db.php` y ajusta las variables `$host`, `$user` y `$pass` según las credenciales de tu servidor MySQL local.
-4. **Ejecutar la aplicación:**
-   - Inicia los servicios de Apache y MySQL.
-   - Abre en tu navegador: `http://localhost/agenda_contactos/`
+   ```bash
+   git clone <URL-DE-TU-REPOSITORIO>
